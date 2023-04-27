@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "node-nlp": "^4.26.1",
+    "nodemailer": "^6.9.1",
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "train": "node train.js",
+    "start": "node server.js"
+  }
+}
